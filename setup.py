@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="tyc_dataset",
+    name="tyc",
     version="0.1",
     url="https://github.com/ChristophReich1996/TYC-Dataset",
     license="CC BY 4.0",
@@ -16,7 +16,7 @@ setup(
     ],
     install_requires=[
         "torch>=1.0.0",
-        "torchmetrics @ git+https://github.com/Lightning-AI/torchmetrics.git@release/stable"
+        # "torchmetrics @ git+https://github.com/Lightning-AI/torchmetrics.git@v1.3.1",
         "numpy",
         "matplotlib",
         "kornia",
